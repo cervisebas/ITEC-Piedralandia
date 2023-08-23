@@ -1,0 +1,14 @@
+{
+  "name": "ITEC-Piedralandia",
+  "version": "1.0.0",
+  "repository": "https://github.com/cervisebas/ITEC-Piedralandia.git",
+  "author": "SCDev",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "sync": "node sync-git.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  }
+}
