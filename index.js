@@ -30,6 +30,7 @@ window.onload = ()=>{
         HeaderElement.style.paddingRight = (status)? '32px': '16px';
         HeaderElement.style.backgroundColor = (status)? '#282828': 'transparent';
         HeaderElement.style.height = (status)? '70px': '60px';
+        HeaderElement.style.width = (status)? 'calc(100% - 64px)': 'calc(100% - 32px)';
         HeaderElement.querySelector('h2').style.fontSize = (status)? '30px': '26px';
     }
 };

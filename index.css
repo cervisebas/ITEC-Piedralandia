@@ -16,11 +16,12 @@ div#header {
     z-index: 2;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;
+    width: calc(100% - 32px);
     height: 60px;
     background-color: transparent;
     padding-left: 16px;
@@ -38,6 +39,12 @@ div#header h2 {
     font-weight: 700;
     font-size: 26px;
     transition: font-size 300ms linear;
+}
+div#header p {
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 0;
+    width: 180px;
 }
 
 /* ##### Content ##### */
