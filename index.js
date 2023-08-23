@@ -23,11 +23,13 @@ window.onload = ()=>{
     function setStatusHeaderContent(status) {
         if (HeaderStatus == status) return;
         HeaderStatus = status;
-        ContentElement.style.paddingTop = (status)? '0px': '76px';
-        ContentElement.style.marginTop = (!status)? '0px': '60px';
-        ContentElement.style.height = (!status)? 'calc(100% - 76px)': 'calc(100% - 60px)';
+        ContentElement.style.paddingTop = (status)? '0px': '70px';
+        ContentElement.style.marginTop = (!status)? '0px': '70px';
+        ContentElement.style.height = (!status)? 'calc(100% - 70px)': 'calc(100% - 60px)';
         HeaderElement.style.paddingLeft = 
         HeaderElement.style.paddingRight = (status)? '32px': '16px';
-        HeaderElement.style.backgroundColor = (status)? '#101010': 'transparent';
+        HeaderElement.style.backgroundColor = (status)? '#282828': 'transparent';
+        HeaderElement.style.height = (status)? '70px': '60px';
+        HeaderElement.querySelector('h2').style.fontSize = (status)? '30px': '26px';
     }
 };
