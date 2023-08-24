@@ -47,6 +47,10 @@ div#header p {
     margin: 0;
     width: 180px;
 }
+div#header p a {
+    color: #FF0000;
+    text-decoration: none;
+}
 
 /* ##### Content ##### */
 div#content {

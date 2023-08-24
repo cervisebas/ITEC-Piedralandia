@@ -1,0 +1,18 @@
+* {
+    user-select: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFFFF;
+}
+body {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 24px;
+    background-color: #000000;
+    background-image: url('https://th.bing.com/th/id/R.9dba3aa64c49fbeefc46e4ed4164144b?rik=FRK1OX%2bUcTYWTQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2ftransparent-snow-background%2ftransparent-snow-background-16.png&ehk=KCHgQOkNFlXps4hYBGXke2AGLvVMG7dsvqm8AFj7PJs%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: repeat;
+    background-size: contain;
+}
+a {
+    color: #FF0000;
+    text-decoration: none;
+}
