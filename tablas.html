@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        table tbody tr td, tr.titles td {
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            font-size: 16px;
+        }
+        table, th, td {
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+        table thead {
+            background-color: rgba(24, 24, 24, 0.4);
+        }
+        table thead tr.titles td {
+            font-weight: 600;
+        }
+        table thead tr:not(.titles) td {
+            padding-top: 4px;
+            padding-bottom: 4px;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+        }
+        table tfoot {
+            background-color: rgba(24, 24, 24, 0.2);
+        }
+        table tfoot tr td {
+            padding: 5px;
+            font-size: 12px;
+        }
+    </style>
+    <title>Tabla de sitemas operativos</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr><td colspan="100%">Tabla de sistemas operativos</td></tr>
+            <tr class="titles">
+                <td>Nombre</td>
+                <td>Año de creacion</td>
+                <td>Disponibilidad</td>
+                <td>¿Es libre?</td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr><td colspan="100%"><b>Info:</b> Solo se muetran algunos sistemas operativos, pero en el mundo existen muchos más.</td></tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Windows</td>
+                <td>1985</td>
+                <td>En cualquier PC</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Linux</td>
+                <td>1991</td>
+                <td>En cualquier dispositivo</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>MacOS</td>
+                <td>2001</td>
+                <td>Solo en Macs</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Android</td>
+                <td>2008</td>
+                <td>En algunos dispositivos moviles</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>ChromeOS</td>
+                <td>2011</td>
+                <td>Solo en Chromebooks</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
